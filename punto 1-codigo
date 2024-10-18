@@ -1,0 +1,93 @@
+print("\nRuvalcaba Valverde Mguel Angel_1212_3W")
+print("---------------PUNTO 1---------------")
+
+per =	{#agamos un dicionao
+  "Nombre:": "",
+  "Edad:": "",
+  "Sexo:": "",
+  "Telefono:": "",
+  "Correo Electrónico:": "",
+  "Pelicula Favorita:": "",
+  "Pokemon Favorito:": "",
+  "Juego Favorito:": "",
+  "Anime Favorito:": "",
+  "Serie Favirita:": "",
+}
+x = input("Nombre:")#ahora bamos a llenar la opcon diciendo cua es el nombre de la opcion en este caso es nombre
+print("-----------")
+per["Nombre:"] = x#se allade a ldicionaio
+for x, y in per.items():#se puestra el dicionario
+  print(x, y)
+print("-----------")
+
+#el proseso se reite barias veses hasta que s rellena e ultimo espasio
+x = input("Edad:")
+print("-----------")
+per["Edad:"] = x
+for x, y in per.items():
+  print(x, y)
+print("-----------")
+
+
+x = input("Sexo:")
+print("-----------")
+per["Sexo:"] = x
+for x, y in per.items():
+  print(x, y)
+print("-----------")
+
+x = input("Telefono:")
+print("-----------")
+per["Telefono:"] = x
+for x, y in per.items():
+  print(x, y)
+print("-----------")
+
+
+x = input("Correo Electrónico:")
+print("-----------")
+per["Correo Electrónico:"] = x
+for x, y in per.items():
+  print(x, y)
+print("-----------")
+
+x = input("Pelicula Favorita:")
+print("-----------")
+per["Pelicula Favorita:"] = x
+for x, y in per.items():
+  print(x, y)
+print("-----------")
+
+
+x = input("Pokemon Favorito:")
+print("-----------")
+per["Pokemon Favorito:"] = x
+for x, y in per.items():
+  print(x, y)
+print("-----------")
+
+
+x = input("Juego Favorito:")
+print("-----------")
+per["Juego Favorito:"] = x
+for x, y in per.items():
+  print(x, y)
+print("-----------")
+
+
+x = input("Anime Favorito:")
+per["Anime Favorito:"] = x
+for x, y in per.items():
+  print(x, y)
+print("-----------")
+
+
+x = input("Serie Favirita:")
+per["Serie Favirita:"] = x
+for x, y in per.items():
+  print(x, y)
+print("-----------")
+
+print("-------------------------------------")
+print("Objetivo: Crear un diccionario vacío y lo vaya llenado con información sobre una persona (por ejemplo nombre, edad, sexo, teléfono, correo electrónico, etc.) que se le pida al usuario. Cada vez que se añada un nuevo dato debe imprimirse el contenido del diccionario.")
+print("Resultado: todo se complio tal y como fue dicha mente dichosamente dicho.\n")
